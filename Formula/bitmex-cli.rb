@@ -1,4 +1,4 @@
-class Bitmex < Formula
+class BitmexCli < Formula
   desc "Command-line interface for trading on BitMEX"
   homepage "https://github.com/BitMEX/bitmex-cli"
   version "1.0.0"
