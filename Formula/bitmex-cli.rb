@@ -1,28 +1,28 @@
 class BitmexCli < Formula
   desc "Command-line interface for trading on BitMEX"
   homepage "https://github.com/BitMEX/bitmex-cli"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/BitMEX/bitmex-cli/releases/download/v1.0.2/bitmex-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "05a42c2cc87f5ba7ec56dc1b0c7f75b6c44e5d62f38b69cde441c219c4df5f12"
+      url "https://github.com/BitMEX/bitmex-cli/releases/download/v1.0.3/bitmex-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "bbbefa2c8c3a161102b892397ae352b4f22af36842b1993419803286ca16129c"
     end
     on_intel do
-      url "https://github.com/BitMEX/bitmex-cli/releases/download/v1.0.2/bitmex-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "323213b90776da3dbaa54179c9f1568ce84aee488793b0b26a0e303de377132e"
+      url "https://github.com/BitMEX/bitmex-cli/releases/download/v1.0.3/bitmex-cli-x86_64-apple-darwin.tar.gz"
+      sha256 "338409e9b4adb9006bedeed8b7f10f42729d7c616ce4cd83de022ecd332d1941"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BitMEX/bitmex-cli/releases/download/v1.0.2/bitmex-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2d8590c189e5c01ab2a2b1e6ef05ee77353e968624d9a74a78e2e2d6383e43d8"
+      url "https://github.com/BitMEX/bitmex-cli/releases/download/v1.0.3/bitmex-cli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e99008daa2d407a242dae3eb64fc965a456985455c40499751c036d176011e9f"
     end
     on_intel do
-      url "https://github.com/BitMEX/bitmex-cli/releases/download/v1.0.2/bitmex-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4d7a97d0ae2cc6d1a47de8fbc6b7cedbf2dfcaba523f14375d2fb48c97146970"
+      url "https://github.com/BitMEX/bitmex-cli/releases/download/v1.0.3/bitmex-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "19609ab18f6ce3c05594a185b7388372f762e8465b51a778d3f8a91d20a04100"
     end
   end
 
